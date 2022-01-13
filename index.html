@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>SLP TRACKER | OOP</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>SLP TRACKER</h1>
+      <form id="slp-form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" placeholder="" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="axielineup" class="form-label">Axie Lineup</label>
+          <input type="text" id="axielineup" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="slp" class="form-label">SLP</label>
+          <input type="number" id="slp" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br />
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Axie | Line up</th>
+            <th scope="col">SLP</th>
+            <th scope="col">Date</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="slp-list"></tbody>
+      </table>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="mainES6.js"></script>
+  </body>
+</html>
